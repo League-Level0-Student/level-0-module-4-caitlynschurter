@@ -51,8 +51,8 @@ String pet=JOptionPane.showInputDialog("Welcomes to da digital pet shoop. \n Wha
 
 	static void CuddleAndPet(String pet) {
 		if(pet.equals("cat")) {
-			JOptionPane.showMessageDialog(null, "Your kitty really liked dat. \n happiness level increased by 3");
-			happinessLevel = happinessLevel + 3;
+			JOptionPane.showMessageDialog(null, "Your kitty really liked dat. \n happiness level increased by 4");
+			happinessLevel = happinessLevel + 4;
 		}
 
 	}
