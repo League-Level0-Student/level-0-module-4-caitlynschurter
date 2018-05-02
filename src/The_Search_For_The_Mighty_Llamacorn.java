@@ -19,8 +19,9 @@ public static void beginning() {
 	forest();
 	}
 	
+
 	if(n == 1) {
-	ocean();	
+	ocean();
 	}
 }
 
