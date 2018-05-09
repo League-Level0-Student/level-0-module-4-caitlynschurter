@@ -27,7 +27,7 @@ public static void beginning() {
 
 public static void forest() {
 	int n = JOptionPane.showOptionDialog(null, "In the forest, you come across a squirrel. It looks harmless... but you can't be sure. Should you..?", "", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, 
-			new Object[]{"try and befriend it","Go towards the milkshake ocean"}, null);
+			new Object[]{"Try and befriend it","Go towards the milkshake ocean"}, null);
 	
 	if(n==0) {
 	squirrel();
@@ -55,7 +55,7 @@ public static void ocean() {
 
 public static void dessert() {
 	int n = JOptionPane.showOptionDialog(null, "The dessert was hot, tiring, and filled with hot fudge brownies. After many days, you see your cat getting tired, due to lack of water. Do you..?"
-			, "", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[]{"Go back the lolipop forest as quick as you can","say, ''suck it up kitty. we're going to the ocean!''"}, null);
+			, "", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[]{"Go back the lolipop forest as quick as you can","say, ''Suck it up kitty. we're going to the ocean!''"}, null);
 	
 		if(n==0) {
 		forest2();
@@ -140,7 +140,7 @@ public static void forest2() {
 }
 
 public static void island() {
-	JOptionPane.showMessageDialog(null, "On the island is a cow named Koltenecker... But not far away from Koltenecker is the LLAMACORN!!! It took sacrifice, but you found it! You win!");
+	JOptionPane.showMessageDialog(null, "On the island is a cow named Koltenecker... But not far away from Koltenecker is the LLAMACORN!!! It took sacrifice, but you found it! \nYou win!");
 	
 }
 
